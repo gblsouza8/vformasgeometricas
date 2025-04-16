@@ -24,14 +24,18 @@ def esfera():
     print("O volume da sua esfera é:", v)
 
 
-pergunta = int(input("Qual forma geométrica você gostaria de calcular o volume?\n1. Paralelepipedo\n2. Prisma Retangular\n 3. Cubo\n 4. Esfera"))
-if pergunta == 1:
-    paralelepipedo()
-elif pergunta == 2:
-    prismaRetangular()
-elif pergunta == 3:
-    cubo()
-elif pergunta == 4:
-    esfera()
-else:
-    print("Escolha inválida... por favor, escolhar uma opção válida...")
+def programa(): 
+    pergunta = int(input("Qual forma geométrica você gostaria de calcular o volume?\n1. Paralelepipedo\n2. Prisma Retangular\n3. Cubo\n4. Esfera\n"))
+    if pergunta == 1:
+        paralelepipedo()
+    elif pergunta == 2:
+        prismaRetangular()
+    elif pergunta == 3:
+        cubo()
+    elif pergunta == 4:
+        esfera()
+    else:
+        print("Escolha inválida... por favor, escolhar uma opção válida...")
+        programa()
+
+programa()
