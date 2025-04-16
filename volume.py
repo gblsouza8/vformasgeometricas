@@ -27,3 +27,11 @@ def esfera():
 pergunta = int(input("Qual forma geométrica você gostaria de calcular o volume?\n1. Paralelepipedo\n2. Prisma Retangular\n 3. Cubo\n 4. Esfera"))
 if pergunta == 1:
     print(paralelepipedo())
+elif pergunta == 2:
+    print(prismaRetangular())
+elif pergunta == 3:
+    print(cubo())
+elif pergunta == 4:
+    print(esfera())
+else:
+    print("Escolha inválida... por favor, escolhar uma opção válida...")
