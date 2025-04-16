@@ -13,7 +13,7 @@ def prismaRetangular():
     print("O volume do seu prisma retangular é:", v)
 
 def cubo():
-    a = int(input("Digite a aresta:"))
+    a = int(input("Digite a aresta: "))
     v = a*a*a
     print("O volume do seu cubo é:", v)
 
