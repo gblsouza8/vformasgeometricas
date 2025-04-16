@@ -28,10 +28,10 @@ pergunta = int(input("Qual forma geométrica você gostaria de calcular o volume
 if pergunta == 1:
     paralelepipedo()
 elif pergunta == 2:
-    print(prismaRetangular())
+    prismaRetangular()
 elif pergunta == 3:
-    print(cubo())
+    cubo()
 elif pergunta == 4:
-    print(esfera())
+    esfera()
 else:
     print("Escolha inválida... por favor, escolhar uma opção válida...")
